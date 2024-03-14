@@ -14,7 +14,7 @@ Technologies used: Selenium webdriver, TestNG testing framework, Cucumber, etc w
 </hr>
 <p>(Note: Framework is created based on the requirements of the assignment. i.e Some additional packages and files can be added based on the requirements of the tests.)</p>
 <ol>
-  <li>Create a maven and mention groupID and artifaceID</li>
+  <li>Create a maven project and mention groupID and artifaceID</li>
   <li>After this some default folders will be generated at the project level. Among these 'pom.xml' is the main file of our maven project where we will be adding all the required 
   dependencies for our project.</li>
   <li>Dependencies: Selenium java dependency, Cucumber dependencies, TestNG dependency, common IO dependency, etc.</li>
@@ -27,10 +27,10 @@ Technologies used: Selenium webdriver, TestNG testing framework, Cucumber, etc w
   Why tendable? page , contact us page ? and to fill the form.
   In this we are creating the object repository which will be created by finding out all the element on that respective page and then initialising the repository and assigning methods
   for each of the object. And we're doing this with the help of POM with page factory.
-  These method are going to called inside the step definitions in step definition files by creating the object of these page classes.</li>
-  <li>Utility layer: which containd class files in which we are writing the reusable code which is going to called wherever required in the project files. For that purpose we are creating
-  static method in these utility layers class files.</li>
-  <li>Inside src/test/java we are creating stepDefinitions package which will contain step definition file. We are also creating testRunner package to contain TestRunner class which will 
+  These method are going to be called inside the step definitions in step definition files by creating the object of these page classes.</li>
+  <li>Utility layer: which containd class files in which we are writing the reusable code which is going to be called wherever required in the project files. For that purpose we are creating
+  static method in these utility layer's class files.</li>
+  <li>Inside src/test/java we are creating stepDefinitions package which will contain step definition files. We are also creating testRunner package to contain TestRunner class which will 
   be used to run our project code. While running the project choose the TestNG option.</li>
 </ol>
 <hr>
